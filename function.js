@@ -65,7 +65,7 @@ var Zeit;
 
         function animateDiv(){
         var newq = makeNewPosition();
-        $("#Spielobjekt").animate({ top: newq[0], left: newq[1] },1000, function(){
+        $("#Spielobjekt").animate({ top: newq[0], left: newq[1] },600, function(){
         animateDiv();        
         });
     
